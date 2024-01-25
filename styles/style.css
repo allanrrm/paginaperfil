@@ -98,8 +98,8 @@
 }
 
 .apresentacao__imagem {
-    width: 40%;
-    height: 40%;
+    width: 35%;
+    height: 35%;
     left: 1030px;
     border-radius: 16px;
 }
@@ -124,18 +124,16 @@
     color: #F6F6F6;
 }
 
-.apresentacao__conteudo__experiencias {
-    display: flex;
-    flex-direction: column;
-    text-align: left;
-
-}
-
-.apresentacao__conteudo__experiencias__lista {
+.apresentacao__conteudo__lista {
     padding: 5% 0% 5% 0%;
     display: flex;
     flex-direction: column;
     gap: 10px;
     font-size: 18px;
     color: #F6F6F6;
+}
+
+.apresentacao__conteudo__lista__certificado {
+    text-decoration: none;
+    color: #FFFFFF;
 }
