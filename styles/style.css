@@ -5,11 +5,29 @@
     padding: 0;
 }
 
-body {
+.corpo {
     box-sizing: border-box;
     background-color: #000000;
-    color: #009ddc;
+    color: #fd9e22;
 }
+
+.cabecalho {
+    padding: 2% 0% 0% 15%;
+}
+
+.cabecalho__menu {
+    display: flex;
+    gap: 80px;
+}
+
+.cabecalho__menu__link {
+    font-family: "Montserrat", sans-serif;
+    font-size: 24px;
+    font-weight: 600px;
+    color: #fd9e22;
+    text-decoration: none;
+}
+
 
 .titulo-destaque {
     color: #FFFFFF;
@@ -63,7 +81,7 @@ body {
     display: flex;
     gap: 16px;
     justify-content: center;
-    border: 2px solid #22D4FD;
+    border: 2px solid #fd9e22;
     width: 378px;
     text-align: center;
     border-radius: 8px;
@@ -73,8 +91,6 @@ body {
     text-decoration: none;
     color: #F6F6F6;
     font-family: 'Montserrat', sans-serif;
-
-
 }
 
 .apresentacao__conteudo__links__botao:hover {
@@ -82,9 +98,8 @@ body {
 }
 
 .apresentacao__imagem {
-    width: 350px;
-    height: 450px;
-    top: 235px;
+    width: 40%;
+    height: 40%;
     left: 1030px;
     border-radius: 16px;
 }
@@ -92,9 +107,35 @@ body {
 .rodape {
     padding: 24px;
     color: #000000;
-    background-color: #22D4FD;
+    background-color: #fd9e22;
     text-align: center;
     font-family: "Montserrat", sans-serif;
     font-size: 24px;
     font-weight: 400;
+}
+
+/* Css da aba de curriculo */
+.apresentacao__conteudo__apresentacao {
+    padding: 5% 0% 5% 0%;
+    display: flex;
+    flex-direction: column;
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    color: #F6F6F6;
+}
+
+.apresentacao__conteudo__experiencias {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+
+}
+
+.apresentacao__conteudo__experiencias__lista {
+    padding: 5% 0% 5% 0%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-size: 18px;
+    color: #F6F6F6;
 }
